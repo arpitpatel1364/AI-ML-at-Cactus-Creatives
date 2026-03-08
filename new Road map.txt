@@ -1,0 +1,30 @@
+new Road map 
+Python, PyTorch / TensorFlow / Scikit-learn, Hugging Face, LLMs (GPT, BERT, T5), NLP, Transformers, Generative AI, RAG, Prompt Engineering, MLOps, Docker, Cloud Platforms...
+
+
+Roadmap to AI/ML related roles:
+
+PYTHON BASICS:
+3 weeks - Data structures, loops, functions.
+
+DATA ANALYSIS
+3 weeks -  Numpy, pandas, Basics of statistics and data preprocessing techniques
+
+MACHINE LEARNING
+3 weeks -  Machine learning concepts, sklearn library, Model creation using hugging face or kaggle data sets
+
+DEEP LEARNING
+4 weeks -  Deep learning concepts, Pytorch, Tensorflow libraries, Basics of transformers, embeddings and image classification project
+
+GEN AI
+3 weeks - Prompt Engineering, Langchain, RAG, OpenAI or Gemini libraries, Output parsers, any vector db
+
+Optional: Azure AI foundry, AWS Sagemaker
+
+Capstone projects:
+1. RAG based chat bots
+2. Resume analysis using AI
+3. Agentic QA application
+or any other projects related to your domain with multi agent architecture.
+
+consistency, practice and investing weekends is the key for successful completion.
