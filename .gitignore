@@ -6,6 +6,8 @@ __pycache__/
 .vscode
 __pycache__
 output.txt
+demofiles
+sep_file
 
 
 # C extensions
