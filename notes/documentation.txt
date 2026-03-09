@@ -1,0 +1,8 @@
+2 march ->.join
+3 march->pypdf, pymupdf,multithreding,multiproccesing,GIL,AsyncIO
+4 march -> holi (holiday)
+5 march -> text file CRUD oprations
+6 march -> database CRUD oprations
+7 march -> saturday
+8 march -> sunday
+9 march -> 
