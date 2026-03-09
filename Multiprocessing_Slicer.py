@@ -137,18 +137,18 @@ def process_single_pdf(input_path, base_output_folder, completed_list):
 
         doc.close()
         
-        # Insert filename into the blank list (Records)
+
         completed_list.append(file_name)
         return True
     except Exception:
         return False
 
 def batch_process_folder(input_folder, output_root):
-    # Start the clock
+    # time block
     overall_start_time = time.perf_counter()
     
     with Manager() as manager:
-        completed_records = manager.list() # Your blank records list
+        completed_records = manager.list()
         
         pdf_files = [
             os.path.join(input_folder, f) 
@@ -160,7 +160,7 @@ def batch_process_folder(input_folder, output_root):
         print(f"--- Process Started for {total_files} Files ---")
 
         with ProcessPoolExecutor() as executor:
-            # Kick off all processing jobs ASAP
+        
             futures = [
                 executor.submit(process_single_pdf, pdf, output_root, completed_records) 
                 for pdf in pdf_files
@@ -168,7 +168,6 @@ def batch_process_folder(input_folder, output_root):
             
             last_reported_count = 0
             
-            # Monitoring loop: Runs while there are unfinished tasks
             while last_reported_count < total_files:
                 time.sleep(5)
                 
@@ -185,21 +184,19 @@ def batch_process_folder(input_folder, output_root):
                 
                 last_reported_count = current_count
                 
-                # Safety break: If all jobs are actually finished, stop the sleep loop
+                #stop the sleep loop
                 if all(f.done() for f in futures):
                     break
 
     # Calculate Total Time
     total_duration = time.perf_counter() - overall_start_time
     
-    print("\n" + "="*40)
     print(f"--- ALL PROCESSES COMPLETE ---")
     print(f"Total Files Processed: {total_files}")
     print(f"Total Execution Time: {total_duration:.2f} seconds")
-    print("="*40)
 
 if __name__ == "__main__":
-    # Your specific directories
+    # directories
     SOURCE_DIR = r"E:\AI-ML-at-Cactus-Creatives\demofiles"
     EXPORT_DIR = r"E:\AI-ML-at-Cactus-Creatives\sep_file"
     
