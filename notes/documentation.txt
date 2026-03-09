@@ -1,4 +1,4 @@
-2 march ->.join
+2 march ->.join,numpy,panda,matrix operations,userdefine operations
 3 march->pypdf, pymupdf,multithreding,multiproccesing,GIL,AsyncIO
 4 march -> holi (holiday)
 5 march -> text file CRUD oprations
