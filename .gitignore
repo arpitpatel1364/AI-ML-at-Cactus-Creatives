@@ -2,12 +2,17 @@
 __pycache__/
 *.py[codz]
 *$py.class
+
+#  add manully to ingnore 
+#  must take a look 
 .venv
 .vscode
 __pycache__
 output.txt
 demofiles
 sep_file
+
+
 
 
 # C extensions
