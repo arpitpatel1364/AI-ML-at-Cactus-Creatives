@@ -26,7 +26,7 @@ class HighPerfATS:
         self._setup_db()
         
     def _setup_db(self):
-        # SCHEMA CHANGED: We now store 'raw_text' instead of a specific role score.
+        # SCHEMA: We store 'raw_text' instead of a specific role score.
         self.cursor.execute("""
             CREATE TABLE IF NOT EXISTS candidates (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -46,7 +46,7 @@ class HighPerfATS:
         folder_path = r"ATS\All_resume"
         
         if not os.path.exists(folder_path):
-            print(f"❌ Error: Folder '{folder_path}' not found! Create it and add PDFs.")
+            print(f" Error: Folder '{folder_path}' not found! Create it and add PDFs.")
             return
 
         print(f"\n--- Reading PDFs from {folder_path} and saving to Database ---")
@@ -79,7 +79,7 @@ class HighPerfATS:
                 count += 1
                 
         self.conn.commit()
-        print(f"✅ Extracted and saved {count} resumes into Database.")
+        print(f" Extracted and saved {count} resumes into Database.")
 
     # ==========================================
     # FUNCTION 2: CALCULATE ATS SCORE & EXPORT TOP 5
@@ -100,7 +100,7 @@ class HighPerfATS:
         all_candidates = self.cursor.fetchall()
         
         if not all_candidates:
-            print("⚠️ No data found in Database! Run Option 1 first.")
+            print(" No data found in Database! Run Option 1 first.")
             return
 
         keywords = SKILL_SETS[role_key]
@@ -130,6 +130,43 @@ class HighPerfATS:
             shutil.copy(path, os.path.join(output_folder, new_filename))
             print(f"Rank {i+1}: {name} ({score:.0f}%) -> Saved as {new_filename}")
 
+    # ==========================================
+    # FUNCTION 3: SYSTEM RESET (CLEAR DB & FOLDER)
+    # ==========================================
+    def clear_system_data(self):
+        print("\n--- Initiating System Reset ---")
+        
+        # 1. Clear the Top_Matches Folder
+        output_folder = r"ATS\Top_Matches"
+        if os.path.exists(output_folder):
+            file_count = 0
+            for f in os.listdir(output_folder):
+                file_path = os.path.join(output_folder, f)
+                try:
+                    if os.path.isfile(file_path):
+                        os.remove(file_path)
+                        file_count += 1
+                except Exception as e:
+                    print(f" Could not delete {f}: {e}")
+            print(f" Deleted {file_count} old PDFs from '{output_folder}'.")
+        else:
+            print(f" Folder '{output_folder}' is already empty or doesn't exist.")
+
+        # 2. Clear Database Data (Keep the table structure)
+        try:
+            # Delete all rows
+            self.cursor.execute("DELETE FROM candidates")
+            # Reset the AUTOINCREMENT ID back to 0
+            self.cursor.execute("DELETE FROM sqlite_sequence WHERE name='candidates'")
+            self.conn.commit()
+            print(" Emptied all resume data from the Database.")
+        except Exception as e:
+            # If the sqlite_sequence table doesn't exist yet, it might throw an error, which we can ignore
+            self.conn.commit()
+            print(" Emptied all resume data from the Database.")
+            
+        print(" System Reset Complete! Ready for a fresh batch.")
+
 
 def main():
     ats = HighPerfATS()
@@ -143,7 +180,8 @@ def main():
     print("\nSelect Operation:")
     print("1. [INGEST] Read all PDFs and save raw data to Database")
     print("2. [PROCESS] Calculate ATS Scores and Export Top 5")
-    op_choice = input("Choice (1/2): ").strip()
+    print("3. [RESET] Clear Database records and empty Top_Matches folder")
+    op_choice = input("Choice (1/2/3): ").strip()
 
     if op_choice == "1":
         ats.read_and_save_all()
@@ -157,13 +195,22 @@ def main():
             choice = int(input(f"Enter Choice (1-{len(role_list)}): "))
             selected_role = role_list[choice - 1]
         except:
-            print("❌ Invalid Selection.")
+            print("Invalid Selection.")
             return
             
         ats.calculate_ats_and_export(selected_role)
-        
+
+    elif op_choice == "3":
+        # Add a safety confirmation so you don't delete by accident!
+        confirm = input(" Are you sure you want to delete all DB data and output PDFs? (y/n): ").strip().lower()
+        if confirm == 'y':
+            ats.clear_system_data()
+        else:
+            print("Reset cancelled.")
+            
     else:
-        print("❌ Invalid Operation.")
+        print(" Invalid Operation.")
 
 if __name__ == "__main__":
     main()
+
