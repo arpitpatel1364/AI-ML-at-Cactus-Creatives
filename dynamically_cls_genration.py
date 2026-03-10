@@ -19,3 +19,7 @@ for_name=create_task_class("for_name")
 
 my_pdf_job = PDFTask()
 print(my_pdf_job.execute()) 
+my_enc_job = enc_task()
+print(my_enc_job.execute())
+my_name_job = for_name()
+print(my_name_job.execute())
