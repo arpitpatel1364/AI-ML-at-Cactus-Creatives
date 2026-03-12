@@ -6,6 +6,6 @@
 7 march -> saturday
 8 march -> sunday
 9 march -> built-in-ATS,multiprocessing,metaclass(exploring..),pdf_slicer_2.0(multiprocessing)
-10 march-> dynamic class, pc alocations ,annotions prepair data set
+10 march-> dynamic class,ingetion pipeline,RAG, PC alocations ,annotions prepair data set
 11 march-> prepair data set
 12 march -> train my first model 
