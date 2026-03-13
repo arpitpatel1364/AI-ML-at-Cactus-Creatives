@@ -9,3 +9,4 @@
 10 march-> dynamic class,ingetion pipeline,RAG, PC alocations ,annotions prepair data set
 11 march-> prepair data set
 12 march -> train my first model 
+13 march -> import ny trained model into my pc and perform testcases on images , and videos , and counter on that model to count my detected objects
