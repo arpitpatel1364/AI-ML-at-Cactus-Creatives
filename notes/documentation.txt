@@ -10,3 +10,7 @@
 11 march-> prepair data set
 12 march -> train my first model 
 13 march -> import ny trained model into my pc and perform testcases on images , and videos , and counter on that model to count my detected objects
+14 march -> saturday
+15 march -> sunday
+16 march -> make my model more eficient and make a ROI model to count passing objects in the zone 
+17 march -> json file operations,venv variables, tokens   
