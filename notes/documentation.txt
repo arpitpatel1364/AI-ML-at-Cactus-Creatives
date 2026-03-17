@@ -13,4 +13,4 @@
 14 march -> saturday
 15 march -> sunday
 16 march -> make my model more eficient and make a ROI model to count passing objects in the zone 
-17 march -> json file operations,venv variables, tokens   
+17 march -> json file operations,venv variables, tokens, AI-Agent , some updates on GIT Hub
