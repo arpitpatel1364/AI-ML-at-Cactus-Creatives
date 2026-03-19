@@ -1,16 +1,18 @@
-2 march ->.join,numpy,panda,matrix operations,userdefine operations
-3 march->pypdf, pymupdf,multithreding,multiproccesing,GIL,AsyncIO
-4 march -> holi (holiday)
-5 march -> text file CRUD oprations
-6 march -> database CRUD oprations
-7 march -> saturday
-8 march -> sunday
-9 march -> built-in-ATS,multiprocessing,metaclass(exploring..),pdf_slicer_2.0(multiprocessing)
-10 march-> dynamic class,ingetion pipeline,RAG, PC alocations ,annotions prepair data set
-11 march-> prepair data set
-12 march -> train my first model 
-13 march -> import ny trained model into my pc and perform testcases on images , and videos , and counter on that model to count my detected objects
-14 march -> saturday
-15 march -> sunday
-16 march -> make my model more eficient and make a ROI model to count passing objects in the zone 
-17 march -> json file operations,venv variables, tokens, AI-Agent , some updates on GIT Hub
+2 march ->.join,numpy,panda,matrix operations,userdefine operations.
+3 march->pypdf, pymupdf,multithreding,multiproccesing,GIL,AsyncIO.
+4 march -> holi (holiday).
+5 march -> text file CRUD oprations.
+6 march -> database CRUD oprations.
+7 march -> saturday.
+8 march -> sunday.
+9 march -> built-in-ATS,multiprocessing,metaclass(exploring..),pdf_slicer_2.0(multiprocessing).
+10 march-> dynamic class,ingetion pipeline,RAG, PC alocations ,annotions prepair data set.
+11 march-> prepair data set.
+12 march -> train my first model .
+13 march -> import ny trained model into my pc and perform testcases on images , and videos , and counter on that model to count my detected objects.
+14 march -> saturday.
+15 march -> sunday.
+16 march -> make my model more eficient and make a ROI model to count passing objects in the zone.
+17 march -> json file operations,venv variables, tokens, AI-Agent(terminal) , some updates on GIT Hub ,made a personal web project.
+18 march -> made updates on my project and then  hosting it.
+19 march -> check hosting,some updates on my web,
