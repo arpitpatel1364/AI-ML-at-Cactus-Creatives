@@ -15,4 +15,4 @@
 16 march -> make my model more eficient and make a ROI model to count passing objects in the zone.
 17 march -> json file operations,venv variables, tokens, AI-Agent(terminal) , some updates on GIT Hub ,made a personal web project.
 18 march -> made updates on my project and then  hosting it.
-19 march -> check hosting,some updates on my web,
+19 march -> check hosting,some updates on my web,give some updates on my older projects
