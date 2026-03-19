@@ -1,4 +1,6 @@
 import sys
+import time
+
 
 def ultra_fast_concatenation(limit):
     chunks = [str(i) for i in range(1, limit)]
@@ -6,11 +8,14 @@ def ultra_fast_concatenation(limit):
     final_string = "".join(chunks)
     return final_string
 
+
+start_time = time.time()
 print(ultra_fast_concatenation(99999999))
+end_time = time.time()
+print(f"Execution time: {end_time - start_time:.2f} seconds")
 
-from multiprocessing import cpu_count
-
-if __name__ == "__main__": 
-    cores = cpu_count()
-    print(f"Number of CPU cores: {cores}")
+# from multiprocessing import cpu_count
+# if __name__ == "__main__": 
+#     cores = cpu_count()
+#     print(f"Number of CPU cores: {cores}")
 
