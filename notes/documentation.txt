@@ -17,3 +17,6 @@
 18 march -> made updates on my project and then  hosting it.
 19 march -> check hosting,some updates on my web,give some updates on my older projects,VisionForge architechure and design 
 20 march -> complate VisionForge, also made a VisionForge Notebook version, Train models using VisonForge, stremlit basics
+21 march -> saturday
+22 march -> sunday
+23 march -> streamlit , make my VisionForge in streamlit, enhance code train test models using it  
