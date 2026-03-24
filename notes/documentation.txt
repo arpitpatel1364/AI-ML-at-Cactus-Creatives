@@ -19,4 +19,5 @@
 20 march -> complate VisionForge, also made a VisionForge Notebook version, Train models using VisonForge, stremlit basics
 21 march -> saturday
 22 march -> sunday
-23 march -> streamlit , make my VisionForge in streamlit, enhance code train test models using it  
+23 march -> streamlit , make my VisionForge in streamlit, enhance code train test models using it , RAG exploring and make a RAG using calude AI just exploring 
+24 march -> 
