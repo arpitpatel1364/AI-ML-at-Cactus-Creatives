@@ -20,4 +20,6 @@
 21 march -> saturday
 22 march -> sunday
 23 march -> streamlit , make my VisionForge in streamlit, enhance code train test models using it , RAG exploring and make a RAG using calude AI just exploring 
-24 march -> 
+24 march -> working on own portfolio
+25 march -> enhance designs and add themes and testing it and deploy on live 
+26 march -> 
