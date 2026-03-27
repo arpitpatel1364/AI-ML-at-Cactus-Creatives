@@ -24,3 +24,5 @@
 25 march -> enhance designs and add themes and testing it and deploy on live 
 26 march -> first half - maintaining my old projects and brushing up its, second half - hardware change and start new project Sentrix-AI (research - planing)
 27 march -> Working on it Sentrix-AI (If you don't know what's that then check our my repo)
+28 march -> saturday 
+29 march -> sunday 
