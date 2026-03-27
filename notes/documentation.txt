@@ -22,4 +22,5 @@
 23 march -> streamlit , make my VisionForge in streamlit, enhance code train test models using it , RAG exploring and make a RAG using calude AI just exploring 
 24 march -> working on own portfolio
 25 march -> enhance designs and add themes and testing it and deploy on live 
-26 march -> 
+26 march -> first half - maintaining my old projects and brushing up its, second half - hardware change and start new project Sentrix-AI (research - planing)
+27 march -> Working on it Sentrix-AI (If you don't know what's that then check our my repo)
