@@ -28,5 +28,5 @@
 29 march -> sunday 
 30 march -> enhace the Sentrix-AI ( Object detection with Face detection and recognization )
 31 march -> adding features ( camera managements ) 
-1 april -> adding totally new vesion with UI change all features monitoring and testing 
-2 april -> impimentation of ROI feature that detection object in perticular area 
+1 april -> adding totally new vesion with UI change all features monitoring and testing ( working on new project ideas and system designig PixelForge,AI-wardrobe )
+2 april -> impimentation of ROI feature that detection object in perticular area (Sentrix-AI)
