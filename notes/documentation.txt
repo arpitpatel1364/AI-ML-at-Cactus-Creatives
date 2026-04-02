@@ -26,3 +26,7 @@
 27 march -> Working on it Sentrix-AI (If you don't know what's that then check our my repo)
 28 march -> saturday 
 29 march -> sunday 
+30 march -> enhace the Sentrix-AI ( Object detection with Face detection and recognization )
+31 march -> adding features ( camera managements ) 
+1 april -> adding totally new vesion with UI change all features monitoring and testing 
+2 april -> impimentation of ROI feature that detection object in perticular area 
