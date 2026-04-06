@@ -30,7 +30,8 @@
 31 march -> adding features ( camera managements ) 
 1 april -> adding totally new vesion with UI change all features monitoring and testing ( working on new project ideas and system designig PixelForge,AI-wardrobe )
 2 april -> impimentation of ROI feature that detection object in perticular area (Sentrix-AI).
-3 april ->
+3 april -> Updated documentation and portfolio; led alignment meeting and assigned new workstreams.  
 4 april ->saturday
 5 april ->sunday
-6 april ->
+6 april ->Conduct implementation research and optimize the Sentrix AI live stream module. Perform technical feasibility study for Camsense AI integration and define implementation milestones.
+
