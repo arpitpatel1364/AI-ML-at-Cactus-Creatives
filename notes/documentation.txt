@@ -35,3 +35,4 @@
 5 april ->sunday
 6 april ->Conduct implementation research and optimize the Sentrix AI live stream module. Perform technical feasibility study for Camsense AI integration and define implementation milestones.
 7 april -> resherch on implimentation Sentrix-AI , research for other task , prepair proper documentation of it then submit , make some contribution on gihub projects and enhance profile 
+April 8 — Conducted research on AI-driven cybersecurity. Took on a pro-bono client project and made as requirements, GhostFetch - an open-source headless web automation & Scraping tool. Pushed initial commits to GitHub and established the project foundation.
