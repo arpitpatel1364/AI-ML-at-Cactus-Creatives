@@ -37,3 +37,6 @@
 7 april -> resherch on implimentation Sentrix-AI , research for other task , prepair proper documentation of it then submit , make some contribution on gihub projects and enhance profile 
 8 april -> Conducted research on AI-driven cybersecurity. Took on a pro-bono client project and made as requirements, GhostFetch - an open-source headless web automation & Scraping tool. Pushed initial commits to GitHub and established the project foundation. learn : dataclass and Pydantic (in process UV, Pydantic-AI)
 9 april -> working on Nexus-AI and Ghost-fetch, in second half implimentation on Sentrix-AI
+10 april -> Researched live stream optimization techniques, including HTTP long polling, short polling, Server-Sent Events (SSE), and WebSockets. Also debugged my portfolio and made updates to the live version
+11 april -> saturday
+12 april -> sunday
