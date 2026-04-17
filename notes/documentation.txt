@@ -42,3 +42,6 @@
 12 april -> sunday
 13 april -> Elevated Sentrix-AI toward production-grade standards by integrating robust new features and conducting deep-dive research into Live-Stream Fact-Checking architectures. Additionally, I developed and open-sourced AeroPiano and PalmID, pushing the boundaries of spatial computing and biometric interaction.
 14 april -> Refactoring Sentrix-AI from a single-user product to a modular SaaS platform. Key updates include transitioning to a dynamic UI architecture, implementing multi-tenant RBAC, and conducting a full system audit for production readiness.
+15 april -> work on collage project documentations and some bug fixing in Sentrix SaaS branch and then early leave 
+16 april -> clg Presentaion in clg (leave)
+17 april -> 
