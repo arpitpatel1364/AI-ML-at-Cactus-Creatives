@@ -44,4 +44,8 @@
 14 april -> Refactoring Sentrix-AI from a single-user product to a modular SaaS platform. Key updates include transitioning to a dynamic UI architecture, implementing multi-tenant RBAC, and conducting a full system audit for production readiness.
 15 april -> work on collage project documentations and some bug fixing in Sentrix SaaS branch and then early leave 
 16 april -> clg Presentaion in clg (leave)
-17 april -> 
+17 april -> make some update on Sentrix and start new project CamVision 
+18 april -> saturday
+19 april -> sunday
+20 april -> working on CamVision on update grid view fetch feature and also make some update and fixing bugs on Sentrix
+
