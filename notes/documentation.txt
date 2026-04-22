@@ -48,4 +48,6 @@
 18 april -> saturday
 19 april -> sunday
 20 april -> working on CamVision on update grid view fetch feature and also make some update and fixing bugs on Sentrix
+21 april -> company work -- 
+22 april -> fix bugs in portfolio in main line on live and some sentrix up date 
 
