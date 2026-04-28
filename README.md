@@ -1,7 +1,6 @@
-# AI-ML-at-Cactus-Creatives
+# WElcome to AI-ML-at-Cactus-Creatives
 
-Welcome  **AI-ML-at-Cactus-Creatives** 
-### this is a doxumentations REPO
+### this is a documentations REPO
 
 ### `notes`
 Contains daily end-of-day (EOD) tracking, documentation, and matrix operation notes. It helps in maintaining a daily log of the tasks accomplished, research conducted, and project milestones.
