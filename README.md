@@ -1,4 +1,4 @@
-# WElcome to AI-ML-at-Cactus-Creatives
+# WelCome to AI-ML-at-Cactus-Creatives
 
 ### this is a documentations REPO
 
