@@ -59,3 +59,4 @@
 27 april -> leave
 28 april -> prepair documntation , clean data for traing model , some sentrix update , camvision testing, initial commit of multilayer on Sentrix last some days update (5k-9k Lines)
 29 april -> FIx bugs and alert system in Sentrix , server communication by kernal, VM setup KALI and Ubuntu on my laptop,brush up old project ( CareerHub, CryptGuard,InsightHub)
+30 april -> disk adjustment , debug in sentrix and camvision , gitlab , bitbucket overview , database design ,fix bugs on my live portfolio
