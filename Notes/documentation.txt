@@ -61,3 +61,6 @@
 29 april -> FIx bugs and alert system in Sentrix , server communication by kernal, VM setup KALI and Ubuntu on my laptop,brush up old project ( CareerHub, CryptGuard,InsightHub)
 30 april -> disk adjustment , debug in sentrix and camvision , gitlab , bitbucket overview , database design ,fix bugs on my live portfolio
 1 may -> hardware setting up, start making MatSetu , system design of it, database design,documentation ready, repo setup 
+2 may -> saturday
+3 may -> sunday
+4 may -> do research for matsetu app and make proper new archi and doc for it then some data cleaning , and some sentrix bug fix,some edit and format changes on portfolio
