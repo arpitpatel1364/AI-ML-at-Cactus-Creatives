@@ -64,3 +64,4 @@
 2 may -> saturday
 3 may -> sunday
 4 may -> do research for matsetu app and make proper new archi and doc for it then some data cleaning , and some sentrix bug fix,some edit and format changes on portfolio
+5 may -> doing some design work and on matsetu app,
