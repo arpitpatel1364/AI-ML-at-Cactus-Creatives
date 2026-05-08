@@ -67,3 +67,4 @@
 5 may -> doing some design work and on matsetu app,refeactor my old mediscan project and sentrix fix some security issue and also some setups in matsetu
 6 may ->working on matsetu , bug fixing and give new version to cam vision , prepair proper archi and doc and make proptotype of BeamFace then setup it locally and data cleaning 
 7 may -> confidencial 
+8 may ->confidencial
