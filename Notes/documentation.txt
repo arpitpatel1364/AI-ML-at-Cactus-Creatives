@@ -67,4 +67,13 @@
 5 may -> doing some design work and on matsetu app,refeactor my old mediscan project and sentrix fix some security issue and also some setups in matsetu
 6 may ->working on matsetu , bug fixing and give new version to cam vision , prepair proper archi and doc and make proptotype of BeamFace then setup it locally and data cleaning 
 7 may -> confidencial 
-8 may ->confidencial
+8 may -> confidencial
+9 may ->saturday
+10 may ->sunday
+11 may -> company work -- 
+12 may -> company work -- 
+13 may -> company work -- 
+14 may -> company work -- 
+15 may -> company work -- 
+16 may -> saturday
+17 may -> sunday
