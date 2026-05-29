@@ -80,3 +80,5 @@
 18 may -> company work --
 19 may -> research for beam face then masive update on beamface
 20 may -27 may -> very busy in mine projects like clarify and other as well as company work main project ANPR
+28 may -> working on ANPR trying to optimise for low end device
+29 may -> servillance room work 
