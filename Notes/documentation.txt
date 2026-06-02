@@ -84,4 +84,5 @@
 29 may -> servillance room work + ANPR optim..
 30 may ->saturday  (research for ANPR) 
 31 may->sunday
-1 june -> apply changes in ANPR 
+1 june -> apply changes in ANPR ccomplate ANPR project
+2 june -> working for camsense
